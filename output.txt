@@ -1,0 +1,50 @@
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-SlowIntegration`: (``)
+
+Fetching external sources
+-> Fetching podspec for `Alamofire` from `Alamofire.podspec.json`
+
+Resolving dependencies of `Podfile`
+
+Comparing resolved specification to the sandbox manifest
+  A Alamofire
+
+Downloading dependencies
+
+-> Installing Alamofire (3.4.1)
+  - Running pre install hooks
+
+Generating Pods project
+  - Creating Pods project
+  - Adding source files to Pods project
+  - Adding frameworks to Pods project
+  - Adding libraries to Pods project
+  - Adding resources to Pods project
+  - Linking headers
+  - Installing targets
+    - Installing target `Pods-SlowIntegration` iOS 9.3
+      - Generating Info.plist file at `Pods/Target Support Files/Pods-SlowIntegration/Info.plist`
+      - Generating module map file at `Pods/Target Support Files/Pods-SlowIntegration/Pods-SlowIntegration.modulemap`
+      - Generating umbrella header at `Pods/Target Support Files/Pods-SlowIntegration/Pods-SlowIntegration-umbrella.h`
+  - Running post install hooks
+  - Writing Xcode project file to `Pods/Pods.xcodeproj`
+    - Generating deterministic UUIDs
+  - Writing Lockfile in `Podfile.lock`
+  - Writing Manifest in `Pods/Manifest.lock`
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `SlowIntegration.xcworkspace` for this project from now on.
+
+Integrating target `Pods-SlowIntegration` (`SlowIntegration.xcodeproj` project)
+  Adding Build Phase '[CP] Embed Pods Frameworks' to project.
+  Adding Build Phase '[CP] Copy Pods Resources' to project.
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post install hooks
+    - cocoapods-stats from `/Users/mattyohe/.gem/ruby/2.2.2/gems/cocoapods-stats-1.0.0/lib/cocoapods_plugin.rb`
+  Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+pod install --verbose 2>&1 > output.txt  1.39s user 0.25s system 97% cpu 1.680 total

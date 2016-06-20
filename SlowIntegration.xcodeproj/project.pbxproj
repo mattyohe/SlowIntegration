@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A017413396A7F71042DF7CF /* Pods_SlowIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84780E380F120DE2884B8C55 /* Pods_SlowIntegration.framework */; };
 		B5CA1DE91D189A4400BC6F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA1DE81D189A4400BC6F5A /* AppDelegate.swift */; };
 		B5CA1DEB1D189A4400BC6F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA1DEA1D189A4400BC6F5A /* ViewController.swift */; };
 		B5CA1DEE1D189A4400BC6F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CA1DEC1D189A4400BC6F5A /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483EAB09EF7229FF66C00E9C /* Pods-SlowIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlowIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlowIntegration/Pods-SlowIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		84780E380F120DE2884B8C55 /* Pods_SlowIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlowIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CA1DE51D189A4400BC6F5A /* SlowIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CA1DE81D189A4400BC6F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CA1DEA1D189A4400BC6F5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		B5CA1DEF1D189A4400BC6F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CA1DF21D189A4400BC6F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5CA1DF41D189A4400BC6F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B8C6E45D3B83E221A0FE28 /* Pods-SlowIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlowIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlowIntegration/Pods-SlowIntegration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A017413396A7F71042DF7CF /* Pods_SlowIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81D0257B3DB7D0A0DA469E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84780E380F120DE2884B8C55 /* Pods_SlowIntegration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5CA1DDC1D189A4400BC6F5A = {
 			isa = PBXGroup;
 			children = (
 				B5CA1DE71D189A4400BC6F5A /* SlowIntegration */,
 				B5CA1DE61D189A4400BC6F5A /* Products */,
+				BCCBB8B00B2612F30C372553 /* Pods */,
+				81D0257B3DB7D0A0DA469E29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = SlowIntegration;
 			sourceTree = "<group>";
 		};
+		BCCBB8B00B2612F30C372553 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				483EAB09EF7229FF66C00E9C /* Pods-SlowIntegration.debug.xcconfig */,
+				E5B8C6E45D3B83E221A0FE28 /* Pods-SlowIntegration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5CA1DF71D189A4400BC6F5A /* Build configuration list for PBXNativeTarget "SlowIntegration" */;
 			buildPhases = (
+				780BD29AC959B3889F3ACA79 /* [CP] Check Pods Manifest.lock */,
 				B5CA1DE11D189A4400BC6F5A /* Sources */,
 				B5CA1DE21D189A4400BC6F5A /* Frameworks */,
 				B5CA1DE31D189A4400BC6F5A /* Resources */,
+				8B52825D78C496AC31FF0D26 /* [CP] Embed Pods Frameworks */,
+				54D8C96FD6F1974001029FD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54D8C96FD6F1974001029FD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlowIntegration/Pods-SlowIntegration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780BD29AC959B3889F3ACA79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B52825D78C496AC31FF0D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlowIntegration/Pods-SlowIntegration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5CA1DE11D189A4400BC6F5A /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		B5CA1DF81D189A4400BC6F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483EAB09EF7229FF66C00E9C /* Pods-SlowIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlowIntegration/Info.plist;
@@ -258,6 +334,7 @@
 		};
 		B5CA1DF91D189A4400BC6F5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B8C6E45D3B83E221A0FE28 /* Pods-SlowIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlowIntegration/Info.plist;
@@ -286,6 +363,7 @@
 				B5CA1DF91D189A4400BC6F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

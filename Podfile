@@ -1,5 +1,5 @@
 target 'SlowIntegration' do
     use_frameworks!
-    pod 'Alamofire'
-    #pod 'Alamofire', path: '~/Downloads/Alamofire.podspec.json'
+    #pod 'Alamofire'
+    pod 'Alamofire', path: 'Alamofire.podspec.json'
 end
