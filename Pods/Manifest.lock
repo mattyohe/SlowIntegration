@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire (3.4.1)
+
+DEPENDENCIES:
+  - Alamofire (from `/Users/mattyohe/Desktop/Alamofire.podspec.json`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :path: "/Users/mattyohe/Desktop/Alamofire.podspec.json"
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+
+PODFILE CHECKSUM: 676537f5dbbd23d5c4ff0c725cf53fba82184093
+
+COCOAPODS: 1.0.1
